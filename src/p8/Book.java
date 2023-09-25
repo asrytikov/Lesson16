@@ -1,13 +1,20 @@
-package p5;
+package p8;
 
 public class Book {
 
     private String name;
     private int price;
+    private String author;
 
-    public Book(String name, int price) {
+
+    public Book(String name, int price, String author) {
         this.name = name;
         this.price = price;
+        this.author = author;
+    }
+
+    public String getAuthor() {
+        return author;
     }
 
     public String getName() {
